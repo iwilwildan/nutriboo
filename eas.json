@@ -9,10 +9,25 @@
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://lqqetfqrfixgdbzcwsps.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxxcWV0ZnFyZml4Z2RiemN3c3BzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwMDYwMDgsImV4cCI6MjA2NDU4MjAwOH0.IRIoRtnGJOw4j7gv6w5ftePWqYhZMkkK_Y45H6iXaek",
+        "EXPO_PUBLIC_LOGMEAL_API_KEY": "${secret.LOGMEAL_API_KEY}",
+        "EXPO_PUBLIC_LOGMEAL_BASE": "https://api.logmeal.com/v2"
+      }
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://lqqetfqrfixgdbzcwsps.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxxcWV0ZnFyZml4Z2RiemN3c3BzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDkwMDYwMDgsImV4cCI6MjA2NDU4MjAwOH0.IRIoRtnGJOw4j7gv6w5ftePWqYhZMkkK_Y45H6iXaek",
+        "EXPO_PUBLIC_LOGMEAL_API_KEY": "${secret.LOGMEAL_API_KEY}",
+        "EXPO_PUBLIC_LOGMEAL_BASE": "https://api.logmeal.com/v2"
+      }
     }
   },
   "submit": {

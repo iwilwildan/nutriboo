@@ -7,7 +7,7 @@
     "icon": "./assets/images/icon.png",
     "scheme": "nutriboo",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.danslab.nutriboo",
